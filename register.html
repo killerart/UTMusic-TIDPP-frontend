@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>UTMusic</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
+    <link rel="stylesheet" href="src/css/plyr.css">
+    <link rel="stylesheet" href="src/css/index.css">
+</head>
+
+<body class="stylish-color">
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-md navbar-dark stylish-color-dark px-lg-19vw">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="home.html">UTMusic</a>
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Аккаунт</a>
+                        <div class="dropdown-menu dropdown-menu-left dropdown-menu-md-right dropdown-primary stylish-color-dark"
+                            aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item d-block white-text" href="login.html">Войти</a>
+                            <a class="dropdown-item d-block white-text" href="register.html">Создать</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Collapsible content -->
+        </nav>
+        <!-- /.Navbar -->
+
+    </header>
+
+
+    <main>
+        <div class="container-md px-md-5">
+            <div id="login-row" class="row justify-content-center align-items-center my-5">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 class="text-center">Register</h3>
+                            <div class="form-group">
+                                <label for="mail">E-mail:</label><br>
+                                <input type="text" name="mail" id="mail" class="form-control"
+                                    data-kwimpalastatus="alive" data-kwimpalaid="1581673479871-2">
+                            </div>
+                            <div class="form-group">
+                                <label for="username">Username:</label><br>
+                                <input type="text" name="username" id="username" class="form-control"
+                                    data-kwimpalastatus="alive" data-kwimpalaid="1581673479871-3">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password:</label><br>
+                                <input type="text" name="password" id="password" class="form-control"
+                                    data-kwimpalastatus="alive" data-kwimpalaid="1581673479871-4">
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
+                            </div>
+                            <div id="register-link" class="text-right">
+                                <a href="login.html">Login here</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/mdb.min.js"></script>
+    <script type="text/javascript" src="src/js/html5media.min.js"></script>
+    <script type="text/javascript" src="src/js/plyr.min.js"></script>
+    <script type="text/javascript" src="src/js/all.min.js"></script>
+</body>
+
+</html>

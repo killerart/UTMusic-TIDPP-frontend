@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
     <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
@@ -68,8 +70,19 @@
                                         placeholder="Поиск" aria-label="Search">
                                 </div>
                             </form>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <button type="button" class="btn btn-light btn-sm" data-toggle="modal"
+                                        data-target="#songUpload">
+                                        <i class="fas fa-cloud-upload-alt" aria-hidden="true">
+                                            Upload Song
+                                        </i>
+                                    </button>
+                                </div>
+                            </div>
                             <div id="plwrap">
-                                <ul id="plList"></ul>
+                                <ul id="plList">
+                                </ul>
                             </div>
                         </div>
                     </div>
